@@ -1,0 +1,45 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Sep 24 23:38:29 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000048
+                   .cinit    romdata   0x000024    program   0x000004
+.config_2007_BUILD/DEFAULT/PRODUCTION/PULSE.O       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/PULSE.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000025      
+                            0x002007    0x002008      
+            40 out of 8455 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    DELAY   0x00001b    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+                     MAIN   0x00000a    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+                     Rep1   0x00001d    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+                     Rep2   0x00001f    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+          SEVENSEG_LOOKUP   0x00000f    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+                     init   0x000001    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     init   0x000001    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+                     MAIN   0x00000a    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+          SEVENSEG_LOOKUP   0x00000f    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+                    DELAY   0x00001b    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+                     Rep1   0x00001d    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+                     Rep2   0x00001f    program     static C:\Users\Lenovo\MPLABXProjects\7segmentos.X\pulse.asm
+
+
